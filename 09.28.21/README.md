@@ -12,3 +12,6 @@ Na podstawie liczby z zakresu 1-12 wypisuje nazwę miesiąca
 
 ### main5
 Sprawdza największą liczbę z czterech
+
+### main6
+Logowanie do systemu za pomocą loginu i hasła
