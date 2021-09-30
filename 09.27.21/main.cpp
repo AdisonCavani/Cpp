@@ -1,14 +1,13 @@
 #include <iostream>
 using namespace std;
 
-
 int main()
 {
     string imie, nazwisko;
-    
-    cout << "Podaj swoje imię: ";
+
+    std::cout << "Podaj swoje imie: ";
     cin >> imie;
     cout << "Podaj swoje nazwisko: ";
     cin >> nazwisko;
-    cout << "Witaj " << imie << " " << nazwisko;
+    cout << "Witaj " << imie << " " << nazwisko << endl;
 }

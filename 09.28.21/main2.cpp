@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 int main()
 {
     int x;
@@ -9,10 +8,12 @@ int main()
     cout << "Podaj x: ";
     cin >> x;
 
-    if(x % 2 == 0){
+    if (x % 2 == 0)
+    {
         cout << x << " jest liczba parzysta";
     }
-    else{
+    else
+    {
         cout << x << " jest liczba nie parzysta";
     }
 
