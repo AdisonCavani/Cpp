@@ -11,11 +11,11 @@ int main()
     cin >> a >> b >> c;
 
     if (a > b)
-        if(a > c)
+        if (a > c)
             cout << a << " max";
         else
             cout << c << " max";
-    else if(c > b)
+    else if (c > b)
         cout << c << " max";
     else
         cout << b << " max";
