@@ -2,18 +2,20 @@
 #include <math.h>
 #include <stdlib.h>
 
+using namespace std;
+
 int main(void) {
     int n = 101;
     int tab[n];
 
-    std::fill(tab, tab + n, 1);
+    fill(tab, tab + n, 1);
 
-    // for (unsigned int i = 0; i < n; i++) {
-    //     std::cout << tab[i] << "\t";
-    // }
+    for (unsigned int i = 0; i < n; i++) {
+        cout << tab[i] << "\t";
+    }
 
-    std::cout << std::endl
-              << std::endl;
+    // cout << "\n\n";
+    return 0;
 
     /*-------------------*/
     int i = 2;
@@ -29,7 +31,7 @@ int main(void) {
 
     for (unsigned int i = 0; i < n; i++) {
         if (tab[i])
-            std::cout << i << "\t";
+            cout << i << "\t";
     }
 
     return 0;
